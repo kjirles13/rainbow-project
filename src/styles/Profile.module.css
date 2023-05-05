@@ -1,0 +1,9 @@
+.headshot-container {
+    display: flex;
+}
+
+.headshot {
+    border-radius: 50%;
+    display: inline-block;
+    width: 50%;
+}

@@ -1,0 +1,33 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(142, 201, 142);
+    position: fixed;
+}
+
+.nav-pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 2;
+    font-size: 1.2rem;
+}
+
+.page {
+    display: inline-block;
+    margin: 60px 30px 0px 0px;
+}
+
+.nav-pages a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.logo {
+    width: 150px;
+}
