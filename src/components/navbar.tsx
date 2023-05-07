@@ -5,13 +5,13 @@ import logo from '../public/logo.png';
 
 export default function Navbar() {
     const router = useRouter();
-        return (
-            <>
+    return (
+        <>
             <div className={styles["nav-container"]}>
+                <div onClick={() => router.push('/')}>
+                    <img src={logo.src} alt="Project Rainbow Logo" className={styles.logo} />
+                </div>
                 <nav className={styles["nav-pages"]}>
-                    <div onClick={() => router.push('/')}>
-                        <img src={logo.src} alt="Project Rainbow Logo" className={styles.logo} />
-                    </div>
                     <div className={styles.page} onClick={() => router.push('/about')}>
                         <a>Meet Our Team</a>
                     </div>
@@ -23,6 +23,6 @@ export default function Navbar() {
                     </div>
                 </nav>
             </div>
-            </>  
-        )
+        </>
+    )
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import Banner from '../components/banner';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {

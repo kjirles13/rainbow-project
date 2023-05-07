@@ -8,16 +8,18 @@ export default function Footer() {
         <div className={styles.wrapper}>
             <div className={styles.icons}>
                 <a href="https://www.facebook.com/people/Project-Rainbow/100088104047306/" target="_blank" >
-                    <img src={facebook.src} alt="Facebook"/>
+                    <img src={facebook.src} alt="Facebook" />
                 </a>
                 <a href="https://www.instagram.com/project_rainbow_wv/" target="_blank">
                     <img src={instagram.src} alt="Instagram" />
                 </a>
             </div>
-            <p> E: projectrainbowwv@gmail.com</p>
-            <p> 1234 Rainbow Rd <br />
-                Morgantown, WV 25508 <br />
-            </p>
+            <div className={styles.contact}>
+                <p className={styles.elements}> 1234 Rainbow Rd <br />
+                    Morgantown, WV 25508 <br />
+                </p>
+                <p className={styles.elements}> E: projectrainbowwv@gmail.com <br />T: (123) 456-7890</p>
+            </div>
         </div>
     )
 }
