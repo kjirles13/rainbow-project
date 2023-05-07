@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities; */
 
-body {
-    display: grid;
-}
+/* body {
+    background-image: linear-gradient(to bottom, rgb(243, 243, 228), rgb(255, 255, 255));
+} */

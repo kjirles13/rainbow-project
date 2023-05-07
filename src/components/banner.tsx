@@ -1,10 +1,10 @@
-import image from '../public/rainbow-banner-vertical.png';
+import image from '../public/rainbow-banner.png';
 import styles from '../styles/Banner.module.css';
 
 export default function Banner() {
     return (
-        <div>
-            <img src={image.src} alt="rainbow-banner" style={{width: '150px', height: '100%', position: 'fixed', backgroundRepeat: 'repeat', opacity: '75%'}} />
+        <div className={styles.banner}>
+            <img src={image.src} alt="rainbow-banner" className={styles.image} />
         </div>
     )
 }

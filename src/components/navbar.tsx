@@ -9,7 +9,7 @@ export default function Navbar() {
             <>
             <div className={styles["nav-container"]}>
                 <nav className={styles["nav-pages"]}>
-                    <div className={styles.page} onClick={() => router.push('/')}>
+                    <div onClick={() => router.push('/')}>
                         <img src={logo.src} alt="Project Rainbow Logo" className={styles.logo} />
                     </div>
                     <div className={styles.page} onClick={() => router.push('/about')}>
