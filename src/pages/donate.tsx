@@ -4,7 +4,7 @@ import Navbar from '@/components/navbar';
 export default function Donate() {
     return (
         <>
-        <h1>Donate</h1>
+        <h1>Support</h1>
         </>
     )
 }

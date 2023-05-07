@@ -9,20 +9,20 @@ export default function Footer() {
         <div className={styles.wrapper}>
             <div className={styles.icons}>
                 <div className={styles.elements}>
-                    <img src={email.src} alt="Email" id={styles.email} style={{ width: '40px' }} />
-                    <p className={styles.label}>projectrainbowwv@gmail.com</p>
-                </div>
-                <div className={styles.elements}>
                     <a href="https://www.facebook.com/people/Project-Rainbow/100088104047306/" target="_blank" >
                         <img src={facebook.src} alt="Facebook" />
                     </a>
-                    <p className={styles.label}>Project Rainbow</p>
+                    {/* <p className={styles.label}>Project Rainbow</p> */}
                 </div>
                 <div className={styles.elements}>
                     <a href="https://www.instagram.com/project_rainbow_wv/" target="_blank">
                         <img src={instagram.src} alt="Instagram" />
                     </a>
-                    <p className={styles.label}>@project_rainbow_wv</p>
+                    {/* <p className={styles.label}>@project_rainbow_wv</p> */}
+                </div>
+                <div className={styles.elements}>
+                    <img src={email.src} alt="Email" id={styles.email} />
+                    <p className={styles.label}>projectrainbowwv@gmail.com</p>
                 </div>
             </div>
         </div>
