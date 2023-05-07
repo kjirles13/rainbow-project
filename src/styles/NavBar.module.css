@@ -6,7 +6,7 @@
     margin-left: 0px;
     padding-left: 0px;
     position: fixed;
-    background-image: radial-gradient(white, rgb(201, 204, 250));
+    background-image: radial-gradient(rgb(231, 218, 245), rgb(198, 158, 243));
     opacity: 0.9;
 }
 
@@ -22,7 +22,7 @@
 .page {
     display: inline-block;
     margin: 50px 30px 0px 0px;
-    text-shadow:  1px 1px #b8b7b7;
+    text-shadow:  1px 1px #ae67dd;
     font-size: 1.5rem;
 }
 
@@ -40,5 +40,5 @@
 
 .logo:hover {
     cursor: pointer;
-    /* transform: scale(1.2); */
+    transform: scale(1.2);
 }

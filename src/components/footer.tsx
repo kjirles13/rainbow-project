@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import facebook from '../public/facebook.png';
 import instagram from '../public/instagram.png';
+import twitter from '../public/twitter.png';
 import email from '../public/email.png';
 import styles from '../styles/Footer.module.css';
 
@@ -12,13 +12,16 @@ export default function Footer() {
                     <a href="https://www.facebook.com/people/Project-Rainbow/100088104047306/" target="_blank" >
                         <img src={facebook.src} alt="Facebook" />
                     </a>
-                    {/* <p className={styles.label}>Project Rainbow</p> */}
                 </div>
                 <div className={styles.elements}>
                     <a href="https://www.instagram.com/project_rainbow_wv/" target="_blank">
                         <img src={instagram.src} alt="Instagram" />
                     </a>
-                    {/* <p className={styles.label}>@project_rainbow_wv</p> */}
+                </div>
+                <div className={styles.elements}>
+                    <a href="https://twitter.com/ProjectRainbowW" target="_blank">
+                        <img src={twitter.src} alt="Twitter" id={styles.twitter}/>
+                    </a>
                 </div>
                 <div className={styles.elements}>
                     <img src={email.src} alt="Email" id={styles.email} />
