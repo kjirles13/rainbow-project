@@ -1,5 +1,4 @@
 import Navbar from "./navbar";
-import Sidebar from "./sidebar";
 import Footer from "./footer";
 import styles from "../styles/Layout.module.css";
 

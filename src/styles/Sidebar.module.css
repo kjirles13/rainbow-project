@@ -4,14 +4,15 @@
     background-color: rgb(196, 230, 243);
     box-shadow: 5px 5px 5px grey;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin-top: 0;
-    margin-bottom: 10px;
-    height: 97.5vh;
-    width: 100%;
+    margin-bottom: 30px;
+    min-height: 640px;
+    max-width:100%;
     border-radius: 20px;
     font-family: 'Fuzzy Bubbles', cursive, 'Raleway', sans-serif;
-    font-size: 1.08rem;
+    font-size: 01rem;
+    font-weight: bold;
     }
 
 .stats-title {
@@ -20,6 +21,7 @@
     font-size: 2.5rem;
     margin-bottom: 0;
     padding-bottom: 0;
+    text-shadow: 2px 2px 5px grey;
 }
 
 .stats-list {
@@ -27,13 +29,40 @@
     flex-direction: column;
     justify-content: start;
     row-gap: 12px;
-    padding-top: 52px;
-    padding-left: 70px;
-    padding-right: 50px;
-    min-height: 100%;
+    padding: 45px 50px 30px 70px;
 }
 
 .container strong {
     color: rgb(247, 73, 73);
     font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.stats-list li {
+    list-style-image: url(../public/pride-icon.png);
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        justify-content: center;
+        min-height: 100%;
+    }
+
+    .stats-list {
+        padding: 65px 55px 30px 85px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        justify-content: center;
+        min-height: 100%;
+    }
+
+    .stats-list {
+        padding: 65px 55px 30px 85px;
+    }
+    
 }
