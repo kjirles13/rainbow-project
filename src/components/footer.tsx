@@ -19,7 +19,7 @@ export default function Footer() {
                     </a>
                 </div>
                 <div className={styles.elements}>
-                    <a href="https://twitter.com/ProjectRainbowW" target="_blank">
+                    <a href="https://twitter.com/projectxrainbow" target="_blank">
                         <img src={twitter.src} alt="Twitter" id={styles.twitter}/>
                     </a>
                 </div>

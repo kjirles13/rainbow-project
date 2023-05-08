@@ -1,16 +1,18 @@
-/* .container {
+.container {
     display: grid;
+    grid-template-areas: 
+                    'body sidebar'
+                    'body sidebar';
+    grid-template-columns: 73% 1fr;
     
-}
-
-.header {
-    grid-area: header;
 }
 
 .grid-body {
     grid-area: body;
 }
 
-.banner {
-    grid-area: banner;
-} */
+.sidebar {
+    grid-area: sidebar;
+    height: 100%;
+    margin-right: 20px
+}

@@ -13,9 +13,6 @@ export default function Layout({ children }: any) {
                 <main className={styles.main}>
                     {children}
                 </main>
-                <div className={styles.sidebar}>
-                    <Sidebar></Sidebar>
-                </div>
                 <div className={styles.footer}>
                     <Footer />
                 </div>

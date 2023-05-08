@@ -1,0 +1,39 @@
+
+.container {
+    background-image: url('../public/sidebar-background.png');
+    background-color: rgb(196, 230, 243);
+    box-shadow: 5px 5px 5px grey;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0;
+    margin-bottom: 10px;
+    height: 97.5vh;
+    width: 100%;
+    border-radius: 20px;
+    font-family: 'Fuzzy Bubbles', cursive, 'Raleway', sans-serif;
+    font-size: 1.08rem;
+    }
+
+.stats-title {
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive, 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.stats-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 12px;
+    padding-top: 52px;
+    padding-left: 70px;
+    padding-right: 50px;
+    min-height: 100%;
+}
+
+.container strong {
+    color: rgb(247, 73, 73);
+    font-size: 1.2rem;
+}

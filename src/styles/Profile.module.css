@@ -5,21 +5,45 @@
     padding-bottom: 50px;
     border-radius: 10px;
     box-shadow: 5px 7px 5px #a8a7a7;
-    background-image: radial-gradient(rgb(255, 255, 255), rgb(246, 246, 255));
-    margin-bottom: 20px;
-    margin-left: 10px;
-    padding: 10px 20px 10px 15px
+    background-image: linear-gradient(to bottom, white, rgb(231, 231, 248));
+    margin: 0 30px 30px 30px;
+    padding: 15px 30px 15px 30px;
+    max-width: 1000px
 }
 
 .headshot {
     border-radius: 50%;
     display: inline-block;
-    max-width: 400px;
+    max-width: 250px;
     max-height: 250px;
     width: auto;
     height: auto;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.bio {
+    display: inline-block;
+    min-width: 500px;
 }
 
 .name {
     text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+    .headshot-container {
+        flex-wrap: wrap;
+    }
+
+    .headshot {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 200px;
+    }
+
+    .name {
+        text-align: center;
+    }
+    
 }

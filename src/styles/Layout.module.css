@@ -6,10 +6,10 @@
 .wrapper {
     display: grid;
     grid-template-areas: 
-                'header header'
-                'main sidebar'
-                'footer footer';
-    grid-template-columns: 80% 1fr;
+                'header'
+                'main'
+                'footer';
+    grid-template-columns: 1fr;
     grid-template-rows: 150px 1fr auto;
     column-gap: 50px;
     min-height: 100vh;
@@ -18,10 +18,6 @@
 .main {
     grid-area: main;
     min-height: 100%;
-}
-
-.sidebar {
-    grid-area: sidebar;
 }
 
 .footer {
