@@ -1,26 +1,27 @@
-
 .container {
-    background-image: url('../public/sidebar-background.png');
-    background-color: rgb(196, 230, 243);
-    box-shadow: 5px 5px 5px grey;
-    background-repeat: no-repeat;
+    /* background-image: url('../public/rainbow-banner-vertical.png'); */
+    background: linear-gradient(45deg, rgb(236, 129, 129), rgb(247, 23, 23), rgb(192, 113, 248), rgb(155, 155, 241), rgb(122, 236, 122), rgb(237, 240, 78), rgb(235, 169, 46), rgb(247, 23, 23));
+    box-shadow: 7px 10px 7px grey;
     background-size: cover;
-    margin-top: 0;
-    margin-bottom: 30px;
-    min-height: 640px;
-    max-width:100%;
     border-radius: 20px;
     font-family: 'Fuzzy Bubbles', cursive, 'Raleway', sans-serif;
     font-size: 01rem;
     font-weight: bold;
-    }
+    width: 310px;
+}
+
+/* .stats-container {
+    background-color: aliceblue;
+    max-width: 210px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
 
 .stats-title {
     text-align: center;
     font-family: 'Fuzzy Bubbles', cursive, 'Raleway', sans-serif;
     font-size: 2.5rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
     text-shadow: 2px 2px 5px grey;
 }
 
@@ -30,39 +31,43 @@
     justify-content: start;
     row-gap: 12px;
     padding: 45px 50px 30px 70px;
+
 }
 
-.container strong {
-    color: rgb(247, 73, 73);
-    font-size: 1.2rem;
+/* .container span {
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    font-size: 1.3rem;
     font-weight: bold;
-}
+} */
+
+.highlight-container, .highlight {
+    position: relative;
+    font-size: 1.3rem;
+  }
+  
+  .highlight-container {
+    display: inline-block;
+  }
+  .highlight-container:before {
+    content: " ";
+    display: block;
+    height: 80%;
+    width: 90%;
+    margin-left: -3px;
+    margin-right: -3px;
+    position: absolute;
+    background: #f8fc04;
+    transform: rotate(-7deg);
+    top: -1px;
+    left: -2px;
+    border-radius: 20% 25% 30% 25%;
+    padding: 3px 3px 3px 10px;
+    opacity: 1;
+  }
 
 .stats-list li {
     list-style-image: url(../public/pride-icon.png);
     padding-left: 5px;
-}
-
-@media only screen and (max-width: 600px) {
-    .container {
-        justify-content: center;
-        min-height: 100%;
-    }
-
-    .stats-list {
-        padding: 65px 55px 30px 85px;
-    }
-    
-}
-
-@media only screen and (max-width: 800px) {
-    .container {
-        justify-content: center;
-        min-height: 100%;
-    }
-
-    .stats-list {
-        padding: 65px 55px 30px 85px;
-    }
-    
 }
