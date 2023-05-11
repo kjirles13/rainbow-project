@@ -9,10 +9,10 @@ export default function Support() {
             <div>
                 <h1 className={styles.heading}>Donate to our GoFundMe</h1>
                 {/* <iframe src="https://static.ada.support/embed2.eca8973.js" title='GoFundMe' frameBorder="0" className={styles.iframe}></iframe> */}
-                <embed height="500px" src="https://www.gofundme.com/f/help-us-open-the-rainbow-house/widget/large" type="text/html"></embed>
+                <embed  src="https://www.gofundme.com/f/help-us-open-the-rainbow-house/widget/large" type="text/html" className={styles.widget}></embed>
             </div>
             <div className={styles.store}>
-                <h1 className={styles["heading"]}>Buy Merch</h1>
+                <h1 className={styles.heading}>Buy Merch</h1>
                 <div>
                     <h2 className={styles["shop-title"]}>Shirts and Hoodies</h2>
                     <a href="https://www.bonfire.com/store/project-rainbow/" target='_blank'>
