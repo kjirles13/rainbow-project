@@ -18,7 +18,7 @@ export default function Navbar() {
                     <div className={styles.page} onClick={() => router.push('/events')}>
                         <a>Events</a>
                     </div>
-                    <div className={styles.page} onClick={() => router.push('/donate')}>
+                    <div className={styles.page} onClick={() => router.push('/support')}>
                         <a>Support</a>
                     </div>
                     <div className={styles.page} onClick={() => router.push('/rainbow-house')}>

@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    column-gap: 200px;
+    justify-content: center;
+}
+
+.iframe {
+    width: 100%;
+    height: 500px;
+    display: block;
+    overflow: hidden;
+}
+
+.store {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    text-align: center;
+    border-bottom: 3px solid rgb(198, 158, 243);
+}
+
+.shirts {
+    max-width: 550px;
+    margin-bottom: 30px;
+}
+
+.mug {
+    max-width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.shop-title {
+    text-align: center;
+}
+
+.store>div>a>img:hover {
+    transform: scale(1.1);
+}
