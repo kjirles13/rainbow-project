@@ -8,7 +8,7 @@ export default function Sidebar() {
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='' />
                 <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Raleway:wght@300&display=swap" rel="stylesheet" />
             </head>
-            <h1 className={styles["stats-title"]}>The Stats</h1>
+            {/* <h1 className={styles["stats-title"]}>The Stats</h1> */}
             <div className={styles.container}>
                 <div className={styles["stats-container"]}>
                 <ul className={styles["stats-list"]}>

@@ -6,17 +6,22 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles["main"]}>
-        <p className={styles.profile}>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-          et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-          voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-          ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-          sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
-          ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis n
-          ostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi c
-          onsequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nih
-          il molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+        <div className={styles.mission}>
+        <h1 className={styles["mission-title"]}>Our Mission</h1>
+          <p className={styles["mission-body"]}>The mission of Project Rainbow is to address the problem of LGBTQ+ homelessness by 
+          providing a safe haven for unhoused LGBTQ+ individuals and allies. We offer 
+          compassionate, professional, and peer-based assistance and advocacy, and connect folks 
+          with life-saving, gender-affirming care, as well as mental health supports and other wrap around services to ensure empowerment and succces.</p>
+        </div>
+        <div className={styles.vision}>
+        <h1 className={styles["vision-title"]}>Our Vision</h1>
+          <p className={styles["vision-body"]}>Our vision is simple: security and advocacy for the LGBTQ+ community led by the very individuals we intend to serve.
+          Project Rainbow dares to take the phrase, "nothing about us without us" to the next level through empowerment and professional development
+          of the individuals in need of our services with interest in working in the field. We believe that there is no better leader than someone with current or 
+          past lived experience and we intend on providing these individuals with the supports and resources to lead the project for years to come.</p>
+        </div>
       </div>
+
       <div className={styles.sidebar}>
         <Sidebar></Sidebar>
       </div>

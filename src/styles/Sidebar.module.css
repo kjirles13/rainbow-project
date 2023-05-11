@@ -1,5 +1,4 @@
 .container {
-    /* background-image: url('../public/rainbow-banner-vertical.png'); */
     background: linear-gradient(45deg, rgb(236, 129, 129), rgb(247, 23, 23), rgb(192, 113, 248), rgb(155, 155, 241), rgb(122, 236, 122), rgb(237, 240, 78), rgb(235, 169, 46), rgb(247, 23, 23));
     box-shadow: 7px 10px 7px grey;
     background-size: cover;
@@ -8,15 +7,8 @@
     font-size: 01rem;
     font-weight: bold;
     width: 310px;
-}
-
-/* .stats-container {
-    background-color: aliceblue;
-    max-width: 210px;
-    margin: auto;
-    margin-top: 20px;
     margin-bottom: 20px;
-} */
+}
 
 .stats-title {
     text-align: center;
@@ -34,14 +26,6 @@
 
 }
 
-/* .container span {
-    color: rgb(255, 255, 255);
-    background-color: red;
-    border-radius: 20px;
-    font-size: 1.3rem;
-    font-weight: bold;
-} */
-
 .highlight-container, .highlight {
     position: relative;
     font-size: 1.3rem;
@@ -50,6 +34,7 @@
   .highlight-container {
     display: inline-block;
   }
+
   .highlight-container:before {
     content: " ";
     display: block;

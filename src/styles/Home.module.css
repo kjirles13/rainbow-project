@@ -3,12 +3,22 @@
     flex-direction: row;
 }
 
+.main {
+    padding: 0px 40px 10px 40px;
+}
+
 .sidebar {
-    grid-area: sidebar;
-    width: 100%;
-    height: 100%;
+    justify-content: end;
     margin-right: 20px;
     margin-bottom: 10px;
+}
+
+.mission-title {
+    text-align: center;
+}
+
+.vision-title {
+    text-align: center;
 }
 
 @media only screen and (max-width: 640px) {
