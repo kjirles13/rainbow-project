@@ -1,7 +1,6 @@
 import React from 'react';
-import Navbar from '@/components/navbar';
 
-export default function Donate() {
+export default function Support() {
     return (
         <>
         <h1>Support</h1>

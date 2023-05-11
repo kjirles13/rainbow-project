@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities; */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Questrial&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Philosopher&family=Questrial&display=swap');
+
 body {
     margin: 0;
+    /* font-family: 'Questrial', sans-serif; */
+    /* font-family: 'Philosopher', sans-serif; */
+    font-family: 'EB Garamond', serif;
 }
