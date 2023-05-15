@@ -1,14 +1,13 @@
 
 .title {
     text-align: center;
-    border: 1px solid black;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
 .description {
-    padding: 0px 10px 0px 20px;
-    border: 1px solid black;
+    padding: 0px 50px 0px 50px;
+    font-size: 1.2rem;
 }
 
 .profile {
@@ -17,4 +16,11 @@
     flex-direction: column;
     align-items: center;
     margin-top: 0px;
+}
+
+.group-photo {
+    max-width: 96.5vw;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
 }

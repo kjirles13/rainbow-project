@@ -1,10 +1,35 @@
 .container {
     display: flex;
     flex-direction: row;
+    margin-top: 0;
 }
 
 .main {
-    padding: 0px 40px 10px 40px;
+    padding: 0 25px 10px 275px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news {
+    width: 250px;
+    border-right: 1px solid black;
+    height: 100vh;
+    flex-grow: 2;
+    text-align: center;
+    position: fixed;
+    font-size: 0.8rem;
+    z-index: -1;
+}
+
+.mission-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-booth {
+    max-width: 200px;
+    display: inline-block;
 }
 
 .sidebar {
