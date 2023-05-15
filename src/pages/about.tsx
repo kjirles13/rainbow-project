@@ -19,7 +19,7 @@ export default function About() {
                 <div className={styles.profile}>
                     <h1>Our Founding Members</h1>
                     {bios.map(bio => (
-                        <Profile headshot={bio.headshot} bio={bio.bio} name={bio.name} key={bio.name} />
+                        <Profile headshot={bio.headshot} bio={bio.bio} name={bio.name} order={bio.order} key={bio.name} />
                     ))}
                 </div>
             </div>
